@@ -22,12 +22,7 @@
 }
 
 - (CGSize)intrinsicContentSize {
-    if (self.contentSize.height <10) {
-        return CGSizeMake(self.preferredMaxLayoutWidth, 15);
-    }else {
-        NSLog(@"%f",self.contentSize.height);
-        return CGSizeMake(self.preferredMaxLayoutWidth, self.contentSize.height);
-    }
+    return CGSizeMake(self.preferredMaxLayoutWidth, self.contentSize.height);
 }
 
 @end
