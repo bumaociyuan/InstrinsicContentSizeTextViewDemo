@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface InstrinsicTextView : UITextView
+/*!
+ *  default is self.frame.size.width
+ */
 @property (nonatomic, assign) float preferredMaxLayoutWidth;
+/*!
+ *  default is self.frame.size.height
+ */
+@property (nonatomic, assign) float preferredMinLayoutHeight;
 @end

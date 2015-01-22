@@ -12,7 +12,9 @@
 
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     self.preferredMaxLayoutWidth = self.frame.size.width;
+    self.preferredMinLayoutHeight = self.frame.size.height;
 }
 
 - (void)layoutSubviews {
@@ -22,7 +24,17 @@
 }
 
 - (CGSize)intrinsicContentSize {
-    return CGSizeMake(self.preferredMaxLayoutWidth, self.contentSize.height);
+    CGSize result;
+    CGFloat height;
+    
+    if (self.preferredMinLayoutHeight) {
+        height = MAX(self.preferredMinLayoutHeight, self.contentSize.height);
+    } else {
+        height = self.contentSize.height;
+    }
+    
+    result = CGSizeMake(self.preferredMaxLayoutWidth, height);
+    return result;
 }
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB1D62231A70F305008758FE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1D62221A70F305008758FE /* TableViewController.m */; };
 		FB9CA8B518915D81000123AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9CA8B418915D81000123AA /* UIKit.framework */; };
 		FB9CA8B718915D81000123AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9CA8B618915D81000123AA /* Foundation.framework */; };
 		FB9CA8B918915D81000123AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9CA8B818915D81000123AA /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB1D62211A70F305008758FE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FB1D62221A70F305008758FE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		FB9CA8B118915D81000123AA /* InstrinsicContentSizeTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstrinsicContentSizeTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9CA8B418915D81000123AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FB9CA8B618915D81000123AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +96,8 @@
 				FB9CA8D318915D81000123AA /* ViewController.m */,
 				FB9CA8DA18915DAE000123AA /* InstrinsicTextView.h */,
 				FB9CA8DB18915DAE000123AA /* InstrinsicTextView.m */,
+				FB1D62211A70F305008758FE /* TableViewController.h */,
+				FB1D62221A70F305008758FE /* TableViewController.m */,
 				FB9CA8BB18915D81000123AA /* Supporting Files */,
 			);
 			path = InstrinsicContentSizeTextViewDemo;
@@ -185,6 +190,7 @@
 				FB9CA8C118915D81000123AA /* main.m in Sources */,
 				FB9CA8C518915D81000123AA /* AppDelegate.m in Sources */,
 				FB9CA8D418915D81000123AA /* ViewController.m in Sources */,
+				FB1D62231A70F305008758FE /* TableViewController.m in Sources */,
 				FB9CA8DC18915DAE000123AA /* InstrinsicTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +324,7 @@
 				FB9CA8D918915D81000123AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
