@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()<UITextViewDelegate>
-@property (nonatomic, strong) IBOutletCollection(NSLayoutConstraint) NSArray *sizeConstraints;
+//@property (nonatomic, strong) IBOutletCollection(NSLayoutConstraint) NSArray *sizeConstraints;
 @property (nonatomic, weak) IBOutlet UITextView *textView;
 @end
 
@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.textView removeConstraints:self.sizeConstraints];
+//    [self.textView removeConstraints:self.sizeConstraints];
     [self.view layoutIfNeeded];
 }
 

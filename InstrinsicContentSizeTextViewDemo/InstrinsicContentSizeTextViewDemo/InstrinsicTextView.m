@@ -12,7 +12,7 @@
 
 
 - (void)awakeFromNib {
-    self.preferredMaxLayoutWidth = 280;
+    self.preferredMaxLayoutWidth = self.frame.size.width;
 }
 
 - (void)layoutSubviews {
